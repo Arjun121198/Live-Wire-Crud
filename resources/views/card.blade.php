@@ -45,10 +45,15 @@
                                 class="flex items-center justify-between w-full font-medium rtl:text-right text-gray-900 gap-3"
                                 onclick="toggleAccordion(1)">
                                 <span class="text-sm font-bold text-slate-800">GENERAL</span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="23"
+                                <svg class="icon-closed hidden" xmlns="http://www.w3.org/2000/svg" width="25" height="23"
                                     viewBox="0 0 25 23" fill="none">
                                     <path d="M5.5 14.25L12.5 7.6L19.5 14.25" stroke="currentColor" stroke-width="1.5"
                                         stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
+                                <svg class="icon-open" xmlns="http://www.w3.org/2000/svg" width="25" height="23"
+                                    viewBox="0 0 25 23" fill="none">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="1.5" d="m19 9-7 7-7-7" />
                                 </svg>
                             </button>
                             <div id="accordion-1" class="pt-4 hidden">
@@ -91,10 +96,15 @@
                                 onclick="toggleAccordion(2)">
                                 <span class="text-sm font-bold text-slate-800">PRODUCT
                                     SOURCE</span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="23"
+                                    <svg class="icon-closed hidden" xmlns="http://www.w3.org/2000/svg" width="25" height="23"
                                     viewBox="0 0 25 23" fill="none">
                                     <path d="M5.5 14.25L12.5 7.6L19.5 14.25" stroke="currentColor" stroke-width="1.5"
                                         stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
+                                <svg class="icon-open" xmlns="http://www.w3.org/2000/svg" width="25" height="23"
+                                    viewBox="0 0 25 23" fill="none">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="1.5" d="m19 9-7 7-7-7" />
                                 </svg>
                             </button>
 
@@ -159,10 +169,15 @@
                                 onclick="toggleAccordion(3)">
                                 <span class="text-sm font-bold text-slate-800">WARRANTY
                                     DETAILS</span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="23"
+                                    <svg class="icon-closed hidden" xmlns="http://www.w3.org/2000/svg" width="25" height="23"
                                     viewBox="0 0 25 23" fill="none">
                                     <path d="M5.5 14.25L12.5 7.6L19.5 14.25" stroke="currentColor" stroke-width="1.5"
                                         stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
+                                <svg class="icon-open" xmlns="http://www.w3.org/2000/svg" width="25" height="23"
+                                    viewBox="0 0 25 23" fill="none">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="1.5" d="m19 9-7 7-7-7" />
                                 </svg>
                             </button>
 
@@ -221,10 +236,15 @@
                                 onclick="toggleAccordion(4)">
                                 <span class="text-sm font-bold text-slate-800">DIGITAL
                                     RECEIPT</span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="23"
+                                    <svg class="icon-closed hidden" xmlns="http://www.w3.org/2000/svg" width="25" height="23"
                                     viewBox="0 0 25 23" fill="none">
                                     <path d="M5.5 14.25L12.5 7.6L19.5 14.25" stroke="currentColor" stroke-width="1.5"
                                         stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
+                                <svg class="icon-open" xmlns="http://www.w3.org/2000/svg" width="25" height="23"
+                                    viewBox="0 0 25 23" fill="none">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="1.5" d="m19 9-7 7-7-7" />
                                 </svg>
                             </button>
 
@@ -275,10 +295,15 @@
                                 onclick="toggleAccordion(5)">
                                 <span class="text-sm font-bold text-slate-800">PRODUCT
                                     HISTORY</span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="23"
+                                    <svg class="icon-closed hidden" xmlns="http://www.w3.org/2000/svg" width="25" height="23"
                                     viewBox="0 0 25 23" fill="none">
                                     <path d="M5.5 14.25L12.5 7.6L19.5 14.25" stroke="currentColor" stroke-width="1.5"
                                         stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
+                                <svg class="icon-open" xmlns="http://www.w3.org/2000/svg" width="25" height="23"
+                                    viewBox="0 0 25 23" fill="none">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="1.5" d="m19 9-7 7-7-7" />
                                 </svg>
                             </button>
 
@@ -374,10 +399,15 @@
                                 onclick="toggleAccordion(6)">
                                 <span class="text-sm font-bold text-slate-800">DOCUMENTS
                                     & DATA</span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="23"
+                                    <svg class="icon-closed hidden" xmlns="http://www.w3.org/2000/svg" width="25" height="23"
                                     viewBox="0 0 25 23" fill="none">
                                     <path d="M5.5 14.25L12.5 7.6L19.5 14.25" stroke="currentColor" stroke-width="1.5"
                                         stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
+                                <svg class="icon-open" xmlns="http://www.w3.org/2000/svg" width="25" height="23"
+                                    viewBox="0 0 25 23" fill="none">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="1.5" d="m19 9-7 7-7-7" />
                                 </svg>
                             </button>
 
@@ -541,7 +571,10 @@
     <script>
         function toggleAccordion(id) {
             const accordion = document.getElementById(`accordion-${id}`);
-            accordion.classList.toggle('hidden');
+            const button = accordion.previousElementSibling;
+            const isOpen = !accordion.classList.toggle('hidden');
+            button.querySelector('.icon-closed').classList.toggle('hidden', !isOpen);
+            button.querySelector('.icon-open').classList.toggle('hidden', isOpen);
         }
 
         const maxScroll = 300;
